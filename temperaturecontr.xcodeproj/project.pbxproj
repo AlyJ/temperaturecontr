@@ -13,6 +13,8 @@
 		1282153A2505572900405770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128215382505572900405770 /* Main.storyboard */; };
 		1282153C2505572B00405770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1282153B2505572B00405770 /* Assets.xcassets */; };
 		1282153F2505572B00405770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1282153D2505572B00405770 /* LaunchScreen.storyboard */; };
+		1282154725120D9400405770 /* appearenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1282154625120D9400405770 /* appearenceViewController.swift */; };
+		1282154925120DA400405770 /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1282154825120DA400405770 /* infoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1282153B2505572B00405770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1282153E2505572B00405770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		128215402505572B00405770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1282154625120D9400405770 /* appearenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appearenceViewController.swift; sourceTree = "<group>"; };
+		1282154825120DA400405770 /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				128215342505572900405770 /* SceneDelegate.swift */,
 				128215362505572900405770 /* ViewController.swift */,
 				128215382505572900405770 /* Main.storyboard */,
+				1282154825120DA400405770 /* infoViewController.swift */,
+				1282154625120D9400405770 /* appearenceViewController.swift */,
 				1282153B2505572B00405770 /* Assets.xcassets */,
 				1282153D2505572B00405770 /* LaunchScreen.storyboard */,
 				128215402505572B00405770 /* Info.plist */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1282154725120D9400405770 /* appearenceViewController.swift in Sources */,
 				128215372505572900405770 /* ViewController.swift in Sources */,
+				1282154925120DA400405770 /* infoViewController.swift in Sources */,
 				128215332505572900405770 /* AppDelegate.swift in Sources */,
 				128215352505572900405770 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = swift.temperaturecontr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = swift.temperaturecontr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
